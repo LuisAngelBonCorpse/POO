@@ -19,5 +19,14 @@ public class Main {
         perro2.raza = "pug";
         perro2.caracteristicas();
         perro2.dormir();
+
+        Lomito perro3 = new Lomito("Milaneso");
+        perro3.caracteristicas();
+
+        Lomito perro4 = new Lomito("Gibi","mestizo");
+        perro4.caracteristicas();
+
+        Lomito perro5 = new Lomito("Mexi", "labrador", 4,"mediano");
+        perro5.caracteristicas();
     }
 }
